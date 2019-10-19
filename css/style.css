@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    height: 100%
+}
+
+body {
+    widht: 98%;
+    height: 98%;
+    color: #333;
+    background: #f7f7f7;
+    font-size: lem;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1;
+}
+
+a {
+    color: #f48b8b;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+
+a:hover {
+    color: #8b9ff5;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+}
+
+a:active {
+    color: #8ce4a6
+}
+
+img {
+    max-widht: 100%;
+    height: auto;
+    widht: auto\9;
+}
+
+hr {
+    display: block;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid #cfc;
+    padding: 0;
+}
+
+.right {
+    float: right
+}
+
+.left {
+    float: left
+}
+
+.float-center {
+    float: right;
+    position: relative;
+    left: -50%;
+
+}
+
+.clear {
+    clear: both;
+}
+
+/* selection */
+
+::selection {
+    backround: #f28b8b;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #f28b8b;
+    color: #fff;
+}
+
+
+header,
+footer {
+    widht: 98%;
+    background-color: #fff;
+}
+
+header {
+    border-bottom: 2px solid silver;
+    margin-bottom: 10px;
+    padding: 1%;
+}
+
+#logo {
+    font-size: 2em;
+    font-family: Comic Sans MS, sans-serif;
+    margin-left: 20px;
+}
+
+
+
+.contact {
+    font-size: 2em;
+    font-famile: Comic Sans MS, sans-serif;
+    margin-left: 20px;
+}
+
+#menu {
+    color: #666;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.7em;
+}
+
+#menu hr {
+    width: 500px;
+    max-height: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* main style */
+
+input[type=text].filed {
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+input[type=text].filed:focus {
+    border: 2px solid #f58b8b;
+    outline: none;
+}
+
+
+footer {
+    padding: 2%;
+    padding-bottom: 2%;
+    border-top: 2px solid-silver;
+    margin-top: 10px;
+
+}
+
+footer img {
+    width: 4%;
+    float: left;
+    margin-right: 50px;
+}
+
+#page-wrap:after {
+    content: "";
+    display: block;
+}
+
+footer,
+#page-wrap:after {
+    height: 10px;
+}
+
+#page-wrap {
+    min-height: 94%;
+    margin-bottom: -10px;
+}
+
+#wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#wrapper #articles {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#wrapper #articles article {
+    float: left;
+    width: 31.33%;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: aqua;
+    margin-right: 2%;
+    min-height: 400px;
+}
+
+#wrapper #articles article img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+}
+
+#wrapper #articles article h2 {
+    width: 90%;
+    height: 200px;
+    color: fuchsia;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin-left: 5%;
+}
+
+#wrapper #articles article h2 {
+    width: 80%;
+    text-indent: 1em;
+    margin-left: 10%;
+}
+
+#wrapper #articles article a {
+    padding: 5px;
+    float: left;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #eb6b6b;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+#wrapper #articles article a:hover {
+    background-color: #7fe6b;
+}
+
+/* Для О Нас да Ананас*/
+
+#about_us{
+    width: 60%;
+    float: left;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#columnRight{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+/* центр сайта(блок) */
+
+
