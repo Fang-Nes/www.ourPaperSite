@@ -100,18 +100,36 @@ header {
     padding: 1%;
 }
 
+#left_block {
+    background: #151a23;
+    color: #fff;
+    position: fixed;
+    width: 270px;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    left: 0;
+}
+
 #logo {
     font-size: 2em;
     font-family: Comic Sans MS, sans-serif;
     margin-left: 20px;
 }
 
-
-
 .contact {
     font-size: 2em;
     font-famile: Comic Sans MS, sans-serif;
     margin-left: 20px;
+}
+
+
+#leftContact {
+    font-size: 2em;
+    font-famile: Comic Sans MS, sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: inline-block;
 }
 
 #menu {
@@ -127,20 +145,7 @@ header {
     margin-bottom: 10px;
 }
 
-/* main style */
-
-input[type=text].filed {
-    border-radius: 5px;
-    border: 2px solid silver;
-    padding: 5px;
-    margin-left: 30px;
-}
-
-input[type=text].filed:focus {
-    border: 2px solid #f58b8b;
-    outline: none;
-}
-
+/* main Paper Project */
 
 footer {
     padding: 2%;
@@ -179,8 +184,8 @@ footer,
 
 #wrapper #articles {
     float: left;
-    width: 80%;
-    margin-left: 10%;
+    width: 77%;
+    margin-left: 290px;
 }
 
 #wrapper #articles article {
@@ -189,7 +194,7 @@ footer,
     border: 1px solid silver;
     box-sizing: border-box;
     border-radius: 5px;
-    background-color: aqua;
+    background-color: azure;
     margin-right: 2%;
     min-height: 400px;
 }
@@ -204,9 +209,9 @@ footer,
 
 #wrapper #articles article h2 {
     width: 90%;
-    height: 200px;
-    color: fuchsia;
-    font-size: 1.7em;
+    height: 30px;
+    color: #4a4a1a;
+    font-size: 1.5em;
     font-weight: normal;
     margin-left: 5%;
 }
@@ -217,6 +222,12 @@ footer,
     margin-left: 10%;
 }
 
+#wrapper #articles article p {
+    width: 80%;
+    text-indent: 1.1em;
+    margin-left: 9%;
+}
+
 #wrapper #articles article a {
     padding: 5px;
     float: left;
@@ -225,25 +236,139 @@ footer,
     background-color: #eb6b6b;
     margin-left: 5%;
     margin-bottom: 10px;
+    margin-top: 4px;
 }
 
 #wrapper #articles article a:hover {
     background-color: #7fe6b;
 }
 
+#main_block {
+    padding-left: 290PX;
+    padding: 2% 0;
+    border-bottom: 2px solid silver;
+    border-top: 2px solid silver;
+    margin: 20px 0px;
+    margin-left: 150px;
+    float: left;
+    background: url(../img/openspace.jpg);
+    width: 100%;
+    height: 200px;
+}
+
+#main_block_in {
+    margin-left: 330px;
+    margin-top: 1.5%;
+    padding: 2%;
+    text-align: center;
+    background-color: #fafafa;
+    border: 1px solied silver;
+    border-radius: 9px;
+    height: 100px;
+    width: 500px;
+
+}
+
+#main_block_in a {
+    float: left;
+    margin-left: 100px;
+    margin-top: 1%;
+    padding: 5px;
+    background-color: #e9af30;
+    border-radius: 6px;
+    color: #fff;
+}
+
+/* Стили для регистрации/входа и подобного */
+
+input[type=text].filed {
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 300px;
+}
+
+input[type=text].filed:focus {
+    border: 2px solid #f58b8b;
+    outline: none;
+}
+
+form {
+    width: 70%;
+    margin-left: 20%;
+    float: left;
+}
+
+form input:focus,
+form textarea: {
+    border: 2px solid silver
+}
+
+form input {
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+    width: 40%;
+    background-color: #fafafa;
+}
+
+form label {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form #send {
+    float: left;
+    cursor: text;
+    padding: 10px;
+    background-color: #f1bddb;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 1.6em;
+    color: #fff;
+}
+
+form #send:hover {
+    background-color: chartreuse;
+}
+
+form textarea {
+    width: 60%;
+    float: left;
+    clear: both;
+    background-color: #fafafa;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.7em;
+}
+
 /* Для О Нас да Ананас*/
 
-#about_us{
-    width: 60%;
+#about_us {
+    width: 35%;
     float: left;
     background-color: #fafafa;
     border-radius: 5px;
     border: 1px solid silver;
     box-sizing: border-box;
     padding: 1%;
+    margin-left: 300px;
 }
 
-#columnRight{
+#about_us img {
+    float: right;
+    width: 100px;
+    height: 140px;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+#columnRight {
     width: 30%;
     float: left;
     margin-left: 5%;
@@ -253,6 +378,102 @@ footer,
     padding: 1%;
 }
 
-/* центр сайта(блок) */
+#columnRight ul {
+    margin-left: 25px;
+}
+
+#columnRight img {
+    float: right;
+    width: 100px;
+    height: 140px;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+#column_for_Ayrat {
+    width: 50%;
+    float: left;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+    margin-left: 300px;
+}
+
+#column_for_Ayrat img {
+    width: 200px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top: -30px;
+    margin-right: 10px;
+}
+
+/* ниже шлак для пробела */
+
+#aboutSpace {
+    padding-left: 290PX;
+
+}
+
+#aboutSpace1 {
+    padding-left: 350PX;
+}
+
+#some_space {
+    margin-left: 25px;
+}
+
+.turn {
+    transform: rotate(-90deg);
+}
+
+/* Для статей(анонсов) */
+
+#f_article {
+    float: left;
+    width: 97%;
+    margin-top: 11px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#f_article #articles {
+    float: left;
+    width: 87%;
+    margin-left: 5px;
+    padding: 1%;
+}
+
+#f_article #articles article {
+    float: right;
+    width: 31.33%;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin-right: 2%;
+    padding: 1%;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

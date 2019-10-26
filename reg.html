@@ -6,22 +6,50 @@
     <meta name="keywords" content="test, site, website" />
     <meta name="description" content="Сайт группы Paper Лицея 7" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
-   <link href="img/paperLogo.jpg" rel="shortcut icon" type="image/x-icon" />
-    <title>Paper Project</title>
+    <link href="img/paperLogo.jpg" rel="shortcut icon" type="image/x-icon" />
+    <title>Paper Project - Регистрация</title>
 </head>
 
 <body>
     <div id="page-wrap">
         <header>
-            <a href="index.html" title="На главную" id="logo">Paper Project</a>
+            <input type="text" class="filed" placeholder="Поможем найти" />
+            <span class="right">
+            </span>
         </header>
 
-        <p> Вам требуется зарегестрироваться на нашем ЧУУУУдо сайте =D </p>
+        <div id="wrapper">
+            <div id="articles">
+                <form action="" method="post">
+                    <span id="leftContact">Регистрация</span><p><br></p>
+                    <label for="firstname">Имя</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Имя" />
+                    <label for="lastname">Фамилия</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Фамилия" />
+                    <label for="secondname">Отчество</label>
+                    <input type="text" id="secondname" name="secondname" placeholder="Отчество" />
+                    <label for="email">Электронная почта(e-mail)</label>
+                    <input type="text" id="email" name="e-mail" placeholder="adress@example.com" />
+                    <label for="pasword">Пароль</label>
+                    <input type="password" id="pasword" name="password" placeholder="Пароль" />
+                    <label for="aboutyou">Расскажите о Себе</label>
+                    <textarea id="aboutyou" name="aboutyou" placeholder="Немного о Себе:">
+                    </textarea>
+                    <input type="submit" value="Зарегистрироваться" id="send" name="sent">
+                </form>
+            </div>
+        </div>
     </div>
     <footer>
-        <span class="left"> Все права не защищены &copy; 2019</span>
+        <span id="aboutSpace"> Все права не защищены &copy; 2019</span>
         <span class="right"><a href="https://it.litsey7.com"> Топ Лицей </a> </span>
     </footer>
+    <div id="left_block">
+        <a href="index.html" title="На главную" id="leftContact">Paper Project</a>
+        <a href="about.html" title="Информация" id="leftContact">О нас</a>
+        <span id="leftContact"><a href="reg.html" title="Зарегестрироваться">Регистрация</a></span>
+        <span id="leftContact"><a href="comein.html" title="Вход">Войти</a></span>
+    </div>
+</body>
 
-
-</body></html>
+</html>
